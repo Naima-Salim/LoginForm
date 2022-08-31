@@ -1,14 +1,12 @@
-
 import './App.css';
 import {FaFacebook} from "react-icons/fa"
 import {FaGoogle} from "react-icons/fa"
 import {FaInstagram} from "react-icons/fa"
 import About from './About';
-
 const leftimage =new URL('./images/image (3).png',import.meta.url)
 
 
-function App() {
+function  App() {
   return (
     <div className='App'>
       <div className='Texts'>
@@ -42,10 +40,10 @@ function App() {
     <div className='instagram'>
       <FaInstagram/>
     </div>
-      <About/>
-    </div>
+    <About/>
+  </div>
    
-  );
+ );
 
 }
 export default App;
